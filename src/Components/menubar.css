@@ -1,3 +1,46 @@
-
-
+/* Styles for screens smaller than or equal to 768 pixels wide */
+@media (max-width: 768px) {
+    /* Your styles for small screens go here */
+   
   
+    /* Example: Hide an element on small screens */
+    .menuItems {
+      
+      display: none;
+    }
+   
+  }
+  
+
+
+
+
+@media (min-width: 768px) {
+    /* Your styles for small screens go here */
+   
+  
+    /* Example: Hide an element on small screens */
+    .icon-for-small-screens{
+        display: none; 
+      
+      
+    }
+   
+  }
+
+  .containerr{
+    position: relative;
+  }
+  .smalScreenMenubar{
+    position: absolute;
+   
+  }
+  .modalcontento{
+    position: absolute;
+    z-index: 11;
+  }
+  .modalcontente{
+    position: absolute;
+    z-index: 11;
+   
+  }
