@@ -18,7 +18,7 @@ function Menubar() {
 
   return (
     <>
-    <div className='flex justify-between'>
+    <div className='tot flex justify-between'>
             <div className='lg:ms-20 '><img src="https://www.ombrulla.com/logo.svg" alt="" style={{width:'140px',height:'60px'}} /></div>
             <div className='menuItems flex mt-6'>
                 <div className='font-bold hover:text-blue-700'>Home</div>
@@ -45,7 +45,7 @@ function Menubar() {
         </div>
 
     {/* content to be display on hovering on service , products */}
-        {isMouseHoverServices&&<div className=" flex justify-end p-4 me-96">
+        {isMouseHoverServices&&<div className=" flex justify-end me-96">
         <div className="modalcontento bg-white shadow text-black p-2 flex flex-col">
        <p className='mt-2 mb-2 font-bold'> AI Visual Inspection</p>
        <hr />
@@ -57,7 +57,7 @@ function Menubar() {
         </div>
       </div>}
 
-      {isMouseHoverProducts&&<div className=" flex justify-end p-4 me-80">
+      {isMouseHoverProducts&&<div className=" flex justify-end me-80">
         <div className="modalcontente bg-white shadow text-black p-2 flex flex-col">
        <p className='mt-2 mb-2 font-bold'> Asset Performance Management</p>
        
