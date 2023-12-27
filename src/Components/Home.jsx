@@ -7,6 +7,7 @@ import Sectionfour from './Sectionfour'
 import Sectionfive from './Sectionfive'
 import Sectionsixpetran from './Sectionsixpetran'
 import Sectionseven from './Sectionseven'
+import Sectioneight from './Sectioneight'
 function Home() {
   return (
     <>
@@ -43,6 +44,7 @@ function Home() {
     <Sectionfive/>
     <Sectionsixpetran/>
     <Sectionseven/>
+    <Sectioneight/>
     </>
   )
 }
