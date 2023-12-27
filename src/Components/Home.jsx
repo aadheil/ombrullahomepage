@@ -1,12 +1,17 @@
 import React from 'react'
 import Menubar from './Menubar'
 import './menubar.css'
+import Sectiontwo from './Sectiontwo'
+import Sectionthree from './Sectionthree'
+import Sectionfour from './Sectionfour'
+import Sectionfive from './Sectionfive'
 function Home() {
   return (
+    <>
     <div className='background-part'>
         <Menubar/>
-        <div className='containerr w-full flex ' style={{height:'100vh'}}>
-        <div className="flex flex-col lg:flex-row w-full lg:ms-20 mt-10">
+        <div className='containerr w-full flex ' style={{height:'100%'}}>
+        <div className="flex flex-col lg:flex-row w-full lg:ms-20 ms-5 mt-10">
       {/* First Div */}
       <div className="flex-1">
         <div className='mt-20' style={{width:'52%'}}><h2 className="text-black font-bold leading-tight" style={{fontSize:'60px'}}>Mannual Inspection is <span className='font-semibold text-blue-700'>Slow &amp; Error- Prone</span></h2></div>
@@ -27,7 +32,14 @@ function Home() {
       </div>
     </div>
         </div>
+
+        
     </div>
+    <Sectiontwo/>
+    <Sectionthree/>
+    <Sectionfour/>
+    <Sectionfive/>
+    </>
   )
 }
 
