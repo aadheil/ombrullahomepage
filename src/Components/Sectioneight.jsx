@@ -19,8 +19,8 @@ function Sectioneight() {
     setTimeout(chnagecarousal, 1500 );
   return (
     <div className='flex flex-col justify-center items-center h-full w-full'>
-        <div className='flex  mt-24 '>
-            <i className="fa-solid fa-square text-blue-600 mt-1"></i><h3 className='ms-3 font-semibold'>OUR CUSTOMERS</h3> <i className="fa-solid fa-square text-blue-600 mt-1 ms-3"></i></div>
+        <div className='flex  mt-28 '>
+            <i className="fa-solid fa-square text-blue-600 mt-1"></i><h6 className='ms-3 font-semibold'>OUR CUSTOMERS</h6> <i className="fa-solid fa-square text-blue-600 mt-1 ms-3"></i></div>
             <div className='mt-6'><h2 className='font-semibold' style={{fontSize:'45px'}}>They Trust Us</h2></div>
 
             <div className='mt-10 mb-20 flex flex-row justify-evenly' style={{width:'70%',height:'200px'}}>

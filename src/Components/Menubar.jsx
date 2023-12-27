@@ -39,7 +39,7 @@ const handleplusForServices=()=>{
                 <div className='ms-8 font-bold hover:text-blue-700'>Blog</div>
                 <div className='ms-8 me-32 font-bold hover:text-blue-700'>Contact</div>
             </div>
-            <div className='icon-for-small-screens flex mt-5 me-5'>
+            <div className='icon-for-small-screens flex mt-2 me-5'>
                { !isSmallScreen?<button onClick={e=>handlesmalscreenbutton(e)}><i className="fa-solid fa-bars fa-2x text-blue-700"></i></button>
                :
                <button onClick={e=>handlesmalscreenbuttonClose(e)}><i className="fa-solid fa-xmark fa-2x text-blue-700"></i></button>
@@ -93,7 +93,7 @@ const handleplusForServices=()=>{
         
         {/* products */}
         <div className='flex flex-row mt-12 ms-12 mb-5'>
-        <div className='hover:text-blue-600'><a href=''>Product</a></div>
+        <div className='hover:text-blue-600'><a >Product</a></div>
         {!isproductopen?<div className='bg-blue-600 ms-10 text-center' style={{borderRadius:'50%',height:'30px',width:'30px'}}><i className="fa-solid fa-plus text-white" onClick={e=>setisproductopen(true)}></i></div>
         :
         <div className='bg-blue-600 ms-10 text-center' style={{borderRadius:'50%',height:'30px',width:'30px'}}><i className="fa-solid fa-minus text-white" onClick={e=>setisproductopen(false)}></i></div>

@@ -8,6 +8,10 @@ import Sectionfive from './Sectionfive'
 import Sectionsixpetran from './Sectionsixpetran'
 import Sectionseven from './Sectionseven'
 import Sectioneight from './Sectioneight'
+import Sectionnine from './Sectionnine'
+import Sectionten from './Sectionten'
+import Sectioneleven from './Sectioneleven'
+import Footer from './Footer'
 function Home() {
   return (
     <>
@@ -45,6 +49,10 @@ function Home() {
     <Sectionsixpetran/>
     <Sectionseven/>
     <Sectioneight/>
+    <Sectionnine/>
+    <Sectionten/>
+    <Sectioneleven/>
+    <Footer/>
     </>
   )
 }
